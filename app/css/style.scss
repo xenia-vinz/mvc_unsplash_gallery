@@ -1,0 +1,13 @@
+@import '/node_modules/normalize.css/normalize.css';
+@import '/node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css';
+@import 'helpers/vars';
+@import 'helpers/animation';
+@import 'helpers/mixins';
+@import 'helpers/grid';
+@import 'helpers/svg';
+
+@import 'base/fonts';
+@import 'base/layout';
+
+@import 'blocks/gallery';
+@import 'blocks/popups';

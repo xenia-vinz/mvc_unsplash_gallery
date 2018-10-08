@@ -1,0 +1,14 @@
+// Common
+  @mixin clr {
+    &:before, &:after {
+      content: ' ';
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+  }
+  @mixin inline-block($align) {
+    display: inline-block;
+    vertical-align: $align;
+  }
